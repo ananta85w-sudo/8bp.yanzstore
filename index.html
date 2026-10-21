@@ -3,113 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YanzStore 8 Ball Pool INDONESIA - Provider Cheat VIP Terpercaya</title>
-    <!-- Font Awesome 6 Icons -->
+    <title>YanzStore - 8 Ball Pool INDONESIA</title>
+    <!-- Font Awesome Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts: Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-main: #060906;
-            --bg-card: rgba(15, 23, 15, 0.85);
-            --bg-glass: rgba(20, 30, 20, 0.6);
+            --bg-main: #0a0e0a;
+            --bg-card: rgba(18, 26, 18, 0.85);
             --lime: #39ff14;
-            --lime-glow: rgba(57, 255, 20, 0.5);
-            --lime-soft: rgba(57, 255, 20, 0.12);
+            --lime-glow: rgba(57, 255, 20, 0.4);
+            --lime-dark: #22990d;
             --text-white: #ffffff;
-            --text-dim: #9eb39e;
-            --border-lime: rgba(57, 255, 20, 0.3);
-            --card-radius: 20px;
+            --text-dim: #a3b8a3;
+            --border-lime: rgba(57, 255, 20, 0.25);
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
 
         body {
             background-color: var(--bg-main);
             color: var(--text-white);
             background-image: 
-                radial-gradient(circle at 50% 0%, rgba(57, 255, 20, 0.15) 0%, transparent 60%),
-                radial-gradient(circle at 10% 40%, rgba(57, 255, 20, 0.05) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(57, 255, 20, 0.05) 0%, transparent 40%),
-                linear-gradient(to bottom, #030503, #080c08);
+                radial-gradient(circle at 50% 0%, rgba(57, 255, 20, 0.1) 0%, transparent 70%),
+                linear-gradient(to bottom, #050805, #0a0e0a);
             min-height: 100vh;
             padding-bottom: 60px;
-            overflow-x: hidden;
         }
 
         .container {
-            max-width: 1150px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 20px;
         }
 
-        /* SERVER STATUS BAR */
-        .status-bar {
-            background: rgba(57, 255, 20, 0.08);
-            border: 1px solid var(--border-lime);
-            border-radius: 50px;
-            padding: 8px 20px;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.82rem;
-            font-weight: 600;
-            color: var(--lime);
-            margin-bottom: 20px;
-            box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
-        }
-
-        .pulse-dot {
-            width: 9px;
-            height: 9px;
-            background-color: var(--lime);
-            border-radius: 50%;
-            box-shadow: 0 0 10px var(--lime);
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(57, 255, 20, 0.7); }
-            70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(57, 255, 20, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(57, 255, 20, 0); }
-        }
-
-        /* HEADER HERO */
+        /* HEADER / BANNER */
         header {
             text-align: center;
-            padding: 45px 25px;
+            padding: 40px 20px;
             background: var(--bg-card);
-            border-radius: 24px;
+            border-radius: 20px;
             border: 1px solid var(--border-lime);
-            backdrop-filter: blur(15px);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 30px var(--lime-soft);
-            margin-bottom: 35px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 20px var(--lime-glow);
+            margin-bottom: 30px;
             position: relative;
             overflow: hidden;
         }
 
-        header::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(57, 255, 20, 0.08) 0%, transparent 60%);
-            pointer-events: none;
-        }
-
         .avatar-wrapper {
             position: relative;
-            width: 125px;
-            height: 125px;
-            margin: 0 auto 20px;
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 15px;
         }
 
         .avatar-img {
@@ -118,48 +68,41 @@
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid var(--lime);
-            box-shadow: 0 0 25px var(--lime), inset 0 0 15px var(--lime);
-            transition: transform 0.4s ease;
-        }
-
-        .avatar-img:hover {
-            transform: scale(1.05) rotate(3deg);
+            box-shadow: 0 0 20px var(--lime);
         }
 
         .badge-trust {
-            background: linear-gradient(135deg, var(--lime), #24bb09);
+            background: var(--lime);
             color: #000;
             font-weight: 800;
-            font-size: 0.78rem;
-            padding: 5px 16px;
+            font-size: 0.75rem;
+            padding: 4px 12px;
             border-radius: 20px;
             display: inline-block;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            box-shadow: 0 0 15px var(--lime-glow);
+            box-shadow: 0 0 10px var(--lime);
         }
 
         h1 {
-            font-size: 2.6rem;
-            font-weight: 900;
+            font-size: 2.3rem;
             text-transform: uppercase;
             letter-spacing: 2px;
             color: var(--text-white);
             margin-bottom: 8px;
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
 
         h1 span {
             color: var(--lime);
-            text-shadow: 0 0 20px var(--lime);
+            text-shadow: 0 0 15px var(--lime);
         }
 
         .subtitle {
             color: var(--text-dim);
-            font-size: 1.05rem;
-            margin-bottom: 30px;
-            font-weight: 400;
+            font-size: 1rem;
+            margin-bottom: 25px;
         }
 
         /* SOCIAL MEDIA BUTTONS */
@@ -173,203 +116,141 @@
         .social-btn {
             display: flex;
             align-items: center;
-            gap: 9px;
-            padding: 11px 20px;
+            gap: 8px;
+            padding: 10px 18px;
             border-radius: 50px;
             text-decoration: none;
             color: #fff;
             font-weight: 600;
-            font-size: 0.88rem;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(5px);
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
-        .social-btn.telegram-admin { background: linear-gradient(135deg, #0088cc, #005580); }
-        .social-btn.telegram-channel { background: linear-gradient(135deg, #00a8ff, #006699); }
-        .social-btn.whatsapp { background: linear-gradient(135deg, #25d366, #128c7e); }
-        .social-btn.youtube { background: linear-gradient(135deg, #ff0000, #990000); }
-        .social-btn.tiktok { background: linear-gradient(135deg, #111111, #222222); border-color: #25f4ee; }
+        .social-btn.telegram {
+            background: linear-gradient(135deg, #0088cc, #005580);
+        }
+        .social-btn.whatsapp {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+        }
+        .social-btn.youtube {
+            background: linear-gradient(135deg, #ff0000, #990000);
+        }
+        .social-btn.tiktok {
+            background: linear-gradient(135deg, #111111, #333333);
+            border-color: #25f4ee;
+        }
 
         .social-btn:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 20px var(--lime-glow);
-            border-color: var(--lime);
-        }
-
-        /* STATS COUNTER BAR */
-        .stats-bar {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 35px;
-        }
-
-        .stat-card {
-            background: var(--bg-glass);
-            border: 1px solid var(--border-lime);
-            border-radius: 16px;
-            padding: 18px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s;
-        }
-
-        .stat-card:hover {
             transform: translateY(-3px);
-            border-color: var(--lime);
+            box-shadow: 0 5px 15px rgba(57, 255, 20, 0.4);
         }
 
-        .stat-number {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: var(--lime);
-            text-shadow: 0 0 10px var(--lime-glow);
-        }
-
-        .stat-label {
-            font-size: 0.8rem;
-            color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-top: 4px;
-        }
-
-        /* SEARCH BAR */
+        /* SEARCH & FILTER */
         .search-box {
-            margin-bottom: 30px;
-            position: relative;
+            margin-bottom: 25px;
+            display: flex;
+            gap: 10px;
         }
 
         .search-input {
             width: 100%;
-            padding: 16px 24px 16px 50px;
+            padding: 14px 20px;
             background: var(--bg-card);
             border: 1px solid var(--border-lime);
-            border-radius: 16px;
+            border-radius: 12px;
             color: #fff;
-            font-size: 0.95rem;
+            font-size: 1rem;
             outline: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: border 0.3s;
         }
 
         .search-input:focus {
             border-color: var(--lime);
-            box-shadow: 0 0 20px var(--lime-soft);
-        }
-
-        .search-icon {
-            position: absolute;
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--lime);
-            font-size: 1.1rem;
+            box-shadow: 0 0 10px var(--lime-glow);
         }
 
         /* SECTION TITLE */
         .section-title {
             text-align: center;
-            font-size: 1.7rem;
-            font-weight: 800;
-            margin: 40px 0 25px;
+            font-size: 1.6rem;
+            margin: 35px 0 20px;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--text-white);
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 12px;
+            gap: 10px;
         }
 
         .section-title i {
             color: var(--lime);
-            text-shadow: 0 0 10px var(--lime);
         }
 
         /* PRODUCTS GRID */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
             gap: 25px;
         }
 
-        /* PRODUCT CARD STYLE */
+        /* CARD STYLE */
         .card {
             background: var(--bg-card);
-            border-radius: var(--card-radius);
-            padding: 26px;
+            border-radius: 16px;
+            padding: 22px;
             border: 1px solid var(--border-lime);
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(10px);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.3s ease;
             position: relative;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
         }
 
         .card:hover {
-            transform: translateY(-7px);
+            transform: translateY(-5px);
             border-color: var(--lime);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9), 0 0 25px var(--lime-soft);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9), 0 0 15px var(--lime-glow);
         }
 
         .card-header {
-            border-bottom: 1px solid rgba(57, 255, 20, 0.15);
-            padding-bottom: 15px;
-            margin-bottom: 18px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            border-bottom: 1px solid rgba(57, 255, 20, 0.2);
+            padding-bottom: 12px;
+            margin-bottom: 15px;
         }
 
         .card-title {
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             color: var(--lime);
-            font-weight: 800;
-            text-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
-        }
-
-        .badge-vip {
-            background: rgba(57, 255, 20, 0.15);
-            color: var(--lime);
-            border: 1px solid var(--lime);
-            font-size: 0.68rem;
             font-weight: 700;
-            padding: 3px 10px;
-            border-radius: 12px;
-            text-transform: uppercase;
+            text-shadow: 0 0 8px rgba(57, 255, 20, 0.3);
         }
 
-        /* FEATURE LIST */
         .features {
             list-style: none;
-            margin-bottom: 22px;
+            margin-bottom: 20px;
         }
 
         .features li {
             font-size: 0.88rem;
             color: var(--text-dim);
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             display: flex;
             align-items: center;
-            gap: 10px;
-            line-height: 1.4;
+            gap: 8px;
         }
 
         .features li i {
             color: var(--lime);
-            font-size: 0.85rem;
-            min-width: 16px;
+            font-size: 0.8rem;
         }
 
-        /* PRICE LIST TABLE */
         .price-list {
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 14px;
-            padding: 14px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 12px;
             margin-bottom: 15px;
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
@@ -378,9 +259,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 0;
-            font-size: 0.92rem;
-            border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+            padding: 8px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
         }
 
         .price-item:last-child {
@@ -389,36 +270,33 @@
 
         .price-duration {
             color: var(--text-dim);
-            font-weight: 500;
         }
 
         .price-amount {
             color: var(--lime);
-            font-weight: 700;
-            margin-right: 10px;
+            font-weight: bold;
         }
 
-        /* BUY BUTTON */
+        /* ORDER BUTTON */
         .btn-buy-option {
-            background: linear-gradient(135deg, var(--lime), #25cc08);
-            border: none;
-            color: #000;
-            padding: 7px 16px;
-            border-radius: 8px;
+            background: transparent;
+            border: 1px solid var(--lime);
+            color: var(--lime);
+            padding: 6px 12px;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 0.82rem;
-            font-weight: 800;
-            transition: all 0.25s ease;
-            text-transform: uppercase;
-            box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: all 0.2s;
         }
 
         .btn-buy-option:hover {
-            transform: scale(1.06);
-            box-shadow: 0 0 18px var(--lime);
+            background: var(--lime);
+            color: #000;
+            box-shadow: 0 0 10px var(--lime);
         }
 
-        /* ORDER MODAL POPUP */
+        /* MODAL POPUP */
         .modal {
             display: none;
             position: fixed;
@@ -426,75 +304,45 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.88);
-            backdrop-filter: blur(8px);
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
             z-index: 9999;
             justify-content: center;
             align-items: center;
             padding: 20px;
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
         }
 
         .modal-content {
-            background: #0d140d;
+            background: #0f170f;
             border: 2px solid var(--lime);
-            border-radius: 24px;
-            max-width: 440px;
+            border-radius: 16px;
+            max-width: 420px;
             width: 100%;
-            padding: 30px;
+            padding: 25px;
             text-align: center;
-            box-shadow: 0 0 40px var(--lime-glow);
+            box-shadow: 0 0 30px var(--lime-glow);
             position: relative;
-            transform: scale(0.95);
-            animation: popIn 0.3s forwards ease-out;
-        }
-
-        @keyframes popIn {
-            to { transform: scale(1); }
         }
 
         .close-modal {
             position: absolute;
-            top: 18px;
-            right: 20px;
-            color: var(--text-dim);
-            font-size: 1.4rem;
+            top: 15px;
+            right: 15px;
+            color: #fff;
+            font-size: 1.2rem;
             cursor: pointer;
-            transition: color 0.2s;
-        }
-
-        .close-modal:hover {
-            color: var(--lime);
-        }
-
-        .modal-icon {
-            font-size: 2.5rem;
-            color: var(--lime);
-            margin-bottom: 12px;
-            text-shadow: 0 0 15px var(--lime);
         }
 
         .modal-title {
-            color: var(--text-white);
-            font-size: 1.35rem;
-            font-weight: 800;
-            margin-bottom: 8px;
+            color: var(--lime);
+            font-size: 1.3rem;
+            margin-bottom: 10px;
         }
 
         .modal-desc {
-            font-size: 0.92rem;
-            color: var(--lime);
-            background: rgba(57, 255, 20, 0.1);
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 22px;
-            font-weight: 600;
-            border: 1px solid var(--border-lime);
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 20px;
         }
 
         .modal-btn-group {
@@ -507,149 +355,87 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 12px;
-            padding: 14px;
-            border-radius: 12px;
+            gap: 10px;
+            padding: 12px;
+            border-radius: 10px;
             text-decoration: none;
             color: #fff;
-            font-weight: 700;
-            font-size: 0.95rem;
-            transition: all 0.25s;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: transform 0.2s;
         }
 
         .modal-action-btn.tg {
-            background: linear-gradient(135deg, #0088cc, #005580);
-            box-shadow: 0 4px 15px rgba(0, 136, 204, 0.4);
+            background: #0088cc;
         }
 
         .modal-action-btn.wa {
-            background: linear-gradient(135deg, #25d366, #128c7e);
+            background: #25d366;
             color: #000;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
         }
 
         .modal-action-btn:hover {
-            transform: translateY(-3px);
-            filter: brightness(1.1);
+            transform: scale(1.02);
         }
 
-        /* TESTIMONIAL / WHY US SECTION */
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-
-        .feature-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-lime);
-            padding: 22px;
-            border-radius: 16px;
-            text-align: center;
-        }
-
-        .feature-box i {
-            font-size: 2rem;
-            color: var(--lime);
-            margin-bottom: 12px;
-            text-shadow: 0 0 10px var(--lime-glow);
-        }
-
-        .feature-box h3 {
-            font-size: 1.05rem;
-            margin-bottom: 8px;
-            color: var(--text-white);
-        }
-
-        .feature-box p {
-            font-size: 0.85rem;
-            color: var(--text-dim);
-            line-height: 1.4;
-        }
-
-        /* FLOATING ACTION BUTTONS */
+        /* FLOATING BUTTONS */
         .floating-buttons {
             position: fixed;
-            bottom: 25px;
-            right: 25px;
+            bottom: 20px;
+            right: 20px;
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
             z-index: 999;
         }
 
         .float-btn {
-            width: 50px;
-            height: 50px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #fff;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             text-decoration: none;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-            transition: all 0.3s;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
         }
 
-        .float-btn.tg { background: linear-gradient(135deg, #0088cc, #005580); }
-        .float-btn.wa { background: linear-gradient(135deg, #25d366, #128c7e); }
-        .float-btn.yt { background: linear-gradient(135deg, #ff0000, #990000); }
+        .float-btn.tg { background: #0088cc; }
+        .float-btn.wa { background: #25d366; }
+        .float-btn.yt { background: #ff0000; }
 
         .float-btn:hover {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 0 20px var(--lime);
+            transform: scale(1.1);
         }
 
-        /* FOOTER */
         footer {
             text-align: center;
-            margin-top: 60px;
-            padding-top: 25px;
-            border-top: 1px solid rgba(57, 255, 20, 0.15);
+            margin-top: 50px;
             color: var(--text-dim);
-            font-size: 0.88rem;
-        }
-
-        footer strong {
-            color: var(--lime);
-        }
-
-        /* RESPONSIVE DESIGN */
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            .subtitle { font-size: 0.92rem; }
-            header { padding: 30px 18px; }
-            .social-btn { font-size: 0.8rem; padding: 9px 15px; }
-            .grid { grid-template-columns: 1fr; }
+            font-size: 0.85rem;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-
-        <!-- HEADER HERO SECTION -->
+        <!-- HEADER -->
         <header>
-            <div class="status-bar">
-                <span class="pulse-dot"></span> ALL CHEAT ENGINES OPERATIONAL & SAFE
-            </div>
-            
             <div class="avatar-wrapper">
                 <img src="https://i.imgur.com/Ja5sslr.jpeg" alt="YanzStore Logo" class="avatar-img">
             </div>
-
-            <div class="badge-trust"><i class="fas fa-shield-alt"></i> TERPERCAYA 100% GARANSI BAN</div>
+            <div class="badge-trust"><i class="fas fa-check-circle"></i> TERPERCAYA 100%</div>
             <h1>YanzStore <span>8BP</span></h1>
-            <p class="subtitle">Provider Official Cheat & VIP Engine 8 Ball Pool Indonesia</p>
+            <p class="subtitle">Beli & Hack Gratis VIP 8 Ball Pool INDONESIA</p>
             
             <div class="social-container">
-                <a href="https://t.me/yanzstorehack8bp" target="_blank" class="social-btn telegram-admin">
+                <a href="https://t.me/yanzstorehack8bp" target="_blank" class="social-btn telegram">
                     <i class="fab fa-telegram"></i> Admin Telegram
                 </a>
-                <a href="https://t.me/yanzstorehack" target="_blank" class="social-btn telegram-channel">
+                <a href="https://t.me/yanzstorehack" target="_blank" class="social-btn telegram">
                     <i class="fas fa-bullhorn"></i> Channel Telegram
                 </a>
                 <a href="https://wa.me/6289604212318" target="_blank" class="social-btn whatsapp">
@@ -659,61 +445,38 @@
                     <i class="fab fa-youtube"></i> YouTube
                 </a>
                 <a href="https://www.tiktok.com/@yanzstore8bp" target="_blank" class="social-btn tiktok">
-                    <i class="fab fa-tiktok"></i> TikTok Store
+                    <i class="fab fa-tiktok"></i> TikTok
                 </a>
             </div>
         </header>
 
-        <!-- STATS BAR -->
-        <div class="stats-bar">
-            <div class="stat-card">
-                <div class="stat-number">10.000+</div>
-                <div class="stat-label">Pelanggan Aktif</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Terpercaya & Safe</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">24 / 7</div>
-                <div class="stat-label">Layanan Fast Response</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">99.9%</div>
-                <div class="stat-label">Anti-Ban Security</div>
-            </div>
-        </div>
-
         <!-- SEARCH BAR -->
         <div class="search-box">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" id="searchInput" class="search-input" placeholder="Cari versi cheat VIP (misal: AimKing, Snake, Knox, Permanent)..." onkeyup="filterProducts()">
+            <input type="text" id="searchInput" class="search-input" placeholder="Cari nama cheat (misal: AimKing, Snake, Knox)..." onkeyup="filterProducts()">
         </div>
 
-        <!-- SECTION TITLE -->
         <div class="section-title">
-            <i class="fas fa-gem"></i> KATALOG CHEAT VIP 8BP
+            <i class="fas fa-crown"></i> LIST HARGA CHEAT VIP 8BP
         </div>
 
         <!-- PRODUCTS GRID -->
         <div class="grid" id="productGrid">
 
             <!-- AimKing + AQ -->
-            <div class="card" data-title="aimking akloader aq auto play queue">
+            <div class="card" data-title="aimking akloader aq">
                 <div>
                     <div class="card-header">
                         <div class="card-title">AimKing / AkLoader + AQ</div>
-                        <span class="badge-vip">BEST SELLER</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Auto Play (Main Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Liat Tempat Berhenti Bolanya</li>
-                        <li><i class="fas fa-check-circle"></i> Auto Queue (Pilih Meja Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Illegal Break Otomatis</li>
-                        <li><i class="fas fa-check-circle"></i> Fast Mode & Human Mode</li>
-                        <li><i class="fas fa-check-circle"></i> Support Root & No Root</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Auto Play</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Liat Tempat Berhenti Bolanya</li>
+                        <li><i class="fas fa-check"></i> Auto Queue (Pilih Meja Otomatis)</li>
+                        <li><i class="fas fa-check"></i> Illegal Break Otomatis</li>
+                        <li><i class="fas fa-check"></i> Fast Mode & Human Mode</li>
+                        <li><i class="fas fa-check"></i> Support Root & No Root</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
                     </ul>
                 </div>
                 <div>
@@ -739,16 +502,15 @@
                 <div>
                     <div class="card-header">
                         <div class="card-title">AimKing / AkLoader + No AQ</div>
-                        <span class="badge-vip">POPULAR</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Auto Play (Main Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Liat Tempat Berhenti Bolanya</li>
-                        <li><i class="fas fa-check-circle"></i> Illegal Break Otomatis</li>
-                        <li><i class="fas fa-check-circle"></i> Fast Mode & Human Mode</li>
-                        <li><i class="fas fa-check-circle"></i> Support Root & No Root</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Auto Play</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Liat Tempat Berhenti Bolanya</li>
+                        <li><i class="fas fa-check"></i> Illegal Break Otomatis</li>
+                        <li><i class="fas fa-check"></i> Fast Mode & Human Mode</li>
+                        <li><i class="fas fa-check"></i> Support Root & No Root</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
                     </ul>
                 </div>
                 <div>
@@ -770,17 +532,15 @@
             </div>
 
             <!-- PSH4X -->
-            <div class="card" data-title="psh4x line prediction">
+            <div class="card" data-title="psh4x">
                 <div>
                     <div class="card-header">
                         <div class="card-title">PSH4X 8 BALL POOL</div>
-                        <span class="badge-vip">PRO ENGINE</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Liat Tempat Berhenti Bolanya</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
-                        <li><i class="fas fa-check-circle"></i> Smooth & Undetected</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Liat Tempat Berhenti Bolanya</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
                     </ul>
                 </div>
                 <div>
@@ -802,18 +562,17 @@
             </div>
 
             <!-- SNAKE ENGINE -->
-            <div class="card" data-title="snake engine bounce shot bola pantul">
+            <div class="card" data-title="snake engine">
                 <div>
                     <div class="card-header">
                         <div class="card-title">SNAKE ENGINE 8BP</div>
-                        <span class="badge-vip">BOUNCE MASTER</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Bisa Bermain Bola Pantul</li>
-                        <li><i class="fas fa-check-circle"></i> Lihat Tempat Berhenti Bola</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
-                        <li><i class="fas fa-check-circle"></i> Support No Root</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Bermain Bola Pantul</li>
+                        <li><i class="fas fa-check"></i> Bisa Lihat Tempat Berhenti Bola</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Support No Root</li>
                     </ul>
                 </div>
                 <div>
@@ -839,25 +598,24 @@
             </div>
 
             <!-- KNOX ENGINE -->
-            <div class="card" data-title="knox engine permanent permanen autoplay">
+            <div class="card" data-title="knox engine">
                 <div>
                     <div class="card-header">
                         <div class="card-title">KNOX ENGINE 8BP</div>
-                        <span class="badge-vip">PERMANENT</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Auto Play (Main Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Bisa Bermain Bola Pantul</li>
-                        <li><i class="fas fa-check-circle"></i> Lihat Tempat Berhenti Bola</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
-                        <li><i class="fas fa-check-circle"></i> Support No Root</li>
+                        <li><i class="fas fa-check"></i> Auto Play</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Bermain Bola Pantul</li>
+                        <li><i class="fas fa-check"></i> Bisa Lihat Tempat Berhenti Bola</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Support No Root</li>
                     </ul>
                 </div>
                 <div>
                     <div class="price-list">
                         <div class="price-item">
-                            <span class="price-duration">Permanent Lifetime</span>
+                            <span class="price-duration">Permanent</span>
                             <div><span class="price-amount">Rp 500.000</span> <button class="btn-buy-option" onclick="openOrderModal('KNOX ENGINE 8BP', 'Permanent', 'Rp 500.000')">Beli</button></div>
                         </div>
                     </div>
@@ -865,25 +623,24 @@
             </div>
 
             <!-- NINJA ENGINE -->
-            <div class="card" data-title="ninja engine permanent permanen autoplay">
+            <div class="card" data-title="ninja engine">
                 <div>
                     <div class="card-header">
                         <div class="card-title">NINJA ENGINE 8BP</div>
-                        <span class="badge-vip">PERMANENT</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Auto Play (Main Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Bisa Bermain Bola Pantul</li>
-                        <li><i class="fas fa-check-circle"></i> Lihat Tempat Berhenti Bola</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
-                        <li><i class="fas fa-check-circle"></i> Support No Root</li>
+                        <li><i class="fas fa-check"></i> Auto Play</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Bermain Bola Pantul</li>
+                        <li><i class="fas fa-check"></i> Bisa Lihat Tempat Berhenti Bola</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Support No Root</li>
                     </ul>
                 </div>
                 <div>
                     <div class="price-list">
                         <div class="price-item">
-                            <span class="price-duration">Permanent Lifetime</span>
+                            <span class="price-duration">Permanent</span>
                             <div><span class="price-amount">Rp 500.000</span> <button class="btn-buy-option" onclick="openOrderModal('NINJA ENGINE 8BP', 'Permanent', 'Rp 500.000')">Beli</button></div>
                         </div>
                     </div>
@@ -891,25 +648,24 @@
             </div>
 
             <!-- SAMURAI ENGINE -->
-            <div class="card" data-title="samurai engine permanent permanen autoplay">
+            <div class="card" data-title="samurai engine">
                 <div>
                     <div class="card-header">
                         <div class="card-title">SAMURAI ENGINE 8BP</div>
-                        <span class="badge-vip">PERMANENT</span>
                     </div>
                     <ul class="features">
-                        <li><i class="fas fa-check-circle"></i> Auto Play (Main Otomatis)</li>
-                        <li><i class="fas fa-check-circle"></i> Line Prediction (Garis Lengkap Full)</li>
-                        <li><i class="fas fa-check-circle"></i> Bisa Bermain Bola Pantul</li>
-                        <li><i class="fas fa-check-circle"></i> Lihat Tempat Berhenti Bola</li>
-                        <li><i class="fas fa-check-circle"></i> Support Login FB & Miniclip</li>
-                        <li><i class="fas fa-check-circle"></i> Support No Root</li>
+                        <li><i class="fas fa-check"></i> Auto Play</li>
+                        <li><i class="fas fa-check"></i> Line Prediction (Keliatan Semua Garis)</li>
+                        <li><i class="fas fa-check"></i> Bisa Bermain Bola Pantul</li>
+                        <li><i class="fas fa-check"></i> Bisa Lihat Tempat Berhenti Bola</li>
+                        <li><i class="fas fa-check"></i> Support Login FB & Miniclip</li>
+                        <li><i class="fas fa-check"></i> Support No Root</li>
                     </ul>
                 </div>
                 <div>
                     <div class="price-list">
                         <div class="price-item">
-                            <span class="price-duration">Permanent Lifetime</span>
+                            <span class="price-duration">Permanent</span>
                             <div><span class="price-amount">Rp 500.000</span> <button class="btn-buy-option" onclick="openOrderModal('SAMURAI ENGINE 8BP', 'Permanent', 'Rp 500.000')">Beli</button></div>
                         </div>
                     </div>
@@ -918,33 +674,8 @@
 
         </div>
 
-        <!-- WHY CHOOSE US / FEATURES -->
-        <div class="section-title" style="margin-top: 60px;">
-            <i class="fas fa-star"></i> KEUNGGULAN YANZSTORE
-        </div>
-
-        <div class="features-grid">
-            <div class="feature-box">
-                <i class="fas fa-bolt"></i>
-                <h3>Proses Cepat</h3>
-                <p>Lisensi dan file cheat dikirim secara instan setelah pembayaran terverifikasi admin.</p>
-            </div>
-            <div class="feature-box">
-                <i class="fas fa-shield-virus"></i>
-                <h3>Aman & Undetected</h3>
-                <p>Seluruh script dan engine selalu diperbarui mengikuti patch terbaru 8 Ball Pool.</p>
-            </div>
-            <div class="feature-box">
-                <i class="fas fa-headset"></i>
-                <h3>Bimbingan Sampai Bisa</h3>
-                <p>Dilengkapi tutorial cara pasang dan bimbingan langsung dari admin jika ada kendala.</p>
-            </div>
-        </div>
-
-        <!-- FOOTER -->
         <footer>
-            <p>&copy; 2026 <strong>YanzStore 8 Ball Pool INDONESIA</strong>. All rights reserved.</p>
-            <p style="font-size: 0.8rem; margin-top: 5px; opacity: 0.7;">Official Admin: @YanzstoreHack8bp | WhatsApp: +62 896-0421-2318</p>
+            <p>&copy; YanzStore 8 Ball Pool INDONESIA. TERPERCAYA 100%.</p>
         </footer>
     </div>
 
@@ -952,18 +683,14 @@
     <div class="modal" id="orderModal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeOrderModal()">&times;</span>
-            <div class="modal-icon"><i class="fas fa-cart-shopping"></i></div>
-            <div class="modal-title" id="modalProductName">Nama Cheat VIP</div>
+            <div class="modal-title" id="modalProductName">Nama Cheat</div>
             <div class="modal-desc" id="modalProductDetails">Durasi & Harga</div>
-            
-            <p style="font-size: 0.85rem; color: #a3b8a3; margin-bottom: 18px;">Pilih metode untuk menghubungi Admin, pesan rincian pembelian akan **otomatis terisi**: </p>
-
             <div class="modal-btn-group">
                 <a href="#" id="btnOrderTelegram" target="_blank" class="modal-action-btn tg">
-                    <i class="fab fa-telegram"></i> Chat via Telegram Admin
+                    <i class="fab fa-telegram"></i> Chat via Telegram
                 </a>
                 <a href="#" id="btnOrderWhatsApp" target="_blank" class="modal-action-btn wa">
-                    <i class="fab fa-whatsapp"></i> Chat via WhatsApp Admin
+                    <i class="fab fa-whatsapp"></i> Chat via WhatsApp
                 </a>
             </div>
         </div>
@@ -995,15 +722,15 @@
             document.getElementById('modalProductName').innerText = productName;
             document.getElementById('modalProductDetails').innerText = 'Durasi: ' + duration + ' | Harga: ' + price;
 
-            const textMessage = `Halo Admin YanzStore, saya mau order cheat VIP 8BP:\n\n` +
-                                `📌 Cheat: ${productName}\n` +
-                                `⏳ Durasi: ${duration}\n` +
-                                `💰 Harga: ${price}\n\n` +
-                                `Mohon info pembayaran dan petunjuk pendaftarannya, terima kasih!`;
+            const textMessage = `Halo Admin YanzStore, saya mau beli cheat VIP 8BP:\n\n` +
+                                `📌 *Cheat*: ${productName}\n` +
+                                `⏳ *Durasi*: ${duration}\n` +
+                                `💰 *Harga*: ${price}\n\n` +
+                                `Mohon info pembayaran dan petunjuk selanjutnya, terima kasih!`;
 
             const encodedText = encodeURIComponent(textMessage);
 
-            // Directly pre-fill links for Telegram & WhatsApp
+            // Set dynamic ordering links
             document.getElementById('btnOrderTelegram').href = `https://t.me/yanzstorehack8bp?text=${encodedText}`;
             document.getElementById('btnOrderWhatsApp').href = `https://wa.me/6289604212318?text=${encodedText}`;
 
